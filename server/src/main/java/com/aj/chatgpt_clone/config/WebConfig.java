@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/ai/**")
                 .allowedHeaders("*")
-                .allowedOrigins("http://localhost:3000")
+                .allowedOrigins("http://localhost:3000","https://chatgptclone-aj.vercel.app/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE");
     }
 }
