@@ -16,7 +16,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document
-public class Prompt {
+public class Prompts {
 
     @Id
     private String id;
